@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <div class="all-content">
+   
+     <!--- nav---->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="logo"><img src="./images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#gallary">Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reserver.html">Réservation</a>
+          </li>
+          </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Recherche" >
+          <button class="btn btn-outline-success" type="submit">Recherche</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- home-->
+   <section id="home">
+    <div class="content">
+      <h1 style="text-align: center;">Cuisine aux saveurs <br>italiennes au cœur de Tunis</h1>
+       <br><br><br><br>
+       <a href="reserver.html">
+        <button id="btn">À table, l’Italie vous appelle</button>
+      </a>
+    </div>
+   </section>
+<br><br>
+
+<!-- categories-->
+<section class="top-cards">
+  <div class="heading2">Top <span>Categories</span></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/pates.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/pizza.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/desert.jpg" alt=""> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- menu -->
+<section class="menu" id="menu">
+  <div class="container">
+    <div class="heading3">Menu</div>
+  </div>
+  <div class="container" id="container2">
+    <div class="row">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/caprese.jpg" >
+          <div class="card-body">
+            <h3>Salade Caprese</h3>
+            <p>20 TND <strike>30 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/lasagne.jpg" >
+          <div class="card-body">
+            <h3>Lasagne</h3>
+            <p>20 TND <strike>25 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/carpaccio.jpg" >
+          <div class="card-body">
+            <h3>Carpaccio</h3>
+            <p>25 TND <strike>35 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/burrata.png" alt="Tiramisu">
+          <div class="card-body">
+            
+            <h3>Salade burrata</h3>
+            <p>18 TND <strike>25 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/margarita.png" >
+          <div class="card-body">
+        
+            <h3>Margherita</h3>
+            <p>18 TND <strike>25 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/peperoni.png" >
+          <div class="card-body">
+           
+            <h3>Pepperoni</h3>
+            <p>20 TND <strike>28 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/carpric.png" >
+          <div class="card-body">
+            
+            <h3>Capricciosa</h3>
+            <p>22 TND <strike>28 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/pizza-ai-frutti-di-mare.jpg" >
+          <div class="card-body">
+           
+            <h3>Frutti di Mare</h3>
+            <p>25 TND <strike>35 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/tiramisu.jpg" >
+          <div class="card-body">
+        
+            <h3>Tiramisu</h3>
+            <p>15 TND <strike>20 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/panna.jpg" >
+          <div class="card-body">
+           
+            <h3>Panna Cotta</h3>
+            <p> 18 TND <strike>22 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/gelato.jpg" >
+          <div class="card-body">
+            
+            <h3>Gelato</h3>
+            <p>18 TND <strike>20 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/expresso.jpg" >
+          <div class="card-body">
+           
+            <h3>Café espresso</h3>
+            <p> 8 TND <strike>10 TND</strike> <span></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- galerie -->
+<div class="container" id="gallary">
+  <h1>Notre <span> Galerie</span></h1>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/cooking.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/coctail.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/charp.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image4.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/chef.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image6.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+       <div class="heading6">Contactez <span>Nous</span></div>
+       <br>
+       <input class="form-control" type="text" placeholder="Nom" ><br>
+       <input class="form-control" type="email" placeholder="Email" ><br>
+       <input class="form-control" type="number" placeholder="Téléphone"><br>
+       <button id="contact-btn">Envoyer Message</button>
+      </div>
+      <div class="col-md-5" id="col">
+        <h1>Info</h1>
+        <p><i class="fa-regular fa-envelope"></i> ItalienFood@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +2165896471</p>
+       <p><i class="fa-solid fa-building-columns"></i> Lac2</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+   <!-- footer -->
+   <footer id="footer">
+    <div class="footer-logo text-center"><img src="./images/logo.png" alt=""></div>
+    <div class="socail-links text-center">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+    
+    <div class="copyright text-center" style="color: black;">
+      &copy; Copyright <strong><span>Italien food</span></strong>. All Rights Reserved
+  </div>
+</footer>
+</body>
+</html>
